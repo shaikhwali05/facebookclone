@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" alt="" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="search here">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <div class="settings-menu ">
+            <div id="darkbtn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p style="margin-bottom: 3px;">Give Us Feedback</p>
+                        <a href="#">Help Us to Improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icons" alt="">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icons" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icons" alt="">
+                    <a href="#">Display & Accessability <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icons" alt="">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="leftbar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">latest</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="">marketplace</a>
+
+                <a href=""><img src="images/watch.png" alt="">watch</a>
+                <a href="">see more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Develpoment</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Websites Experts#</a>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Upload Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Wali Shaikh</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Rohit Sharma</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Berlin</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Srk</p>
+                </div>
+            </div>
+            <div class="write-post">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                        <small>Public <i class="fa fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3">What's on your mind?</textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feelings/Activity</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainer">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                            <span>January 01 2001 , 12:00 PM</span>
+                        </div>
+                    </div>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+
+                <p class="post-text">Learn Most deamanding Skill <span>@WebDevelopement</span> From Our Websites<a
+                        href="#">#WebDevelopement</a><a href="#">#FullStackDeveloper</a> </p>
+                <img src="images/feed-image-1.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1M</div>
+                        <div><img src="images/comments.png" alt="">900k</div>
+                        <div><img src="images/share.png" alt="">500k</div>
+
+
+                    </div>
+                    <div class="post-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="postcontainer">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                            <span>January 01 2001 , 12:00 PM</span>
+                        </div>
+                    </div>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+
+                <p class="post-text">Learn Most deamanding Skill <span>@WebDevelopement</span> From Our Websites<a
+                        href="#">#WebDevelopement</a><a href="#">#FullStackDeveloper</a> </p>
+                <img src="images/feed-image-2.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1M</div>
+                        <div><img src="images/comments.png" alt="">900k</div>
+                        <div><img src="images/share.png" alt="">500k</div>
+
+
+                    </div>
+                    <div class="post-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="postcontainer">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                            <span>January 01 2001 , 12:00 PM</span>
+                        </div>
+                    </div>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+
+                <p class="post-text">Learn Most deamanding Skill <span>@WebDevelopement</span> From Our Websites<a
+                        href="#">#WebDevelopement</a><a href="#">#FullStackDeveloper</a> </p>
+                <img src="images/feed-image-3.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1M</div>
+                        <div><img src="images/comments.png" alt="">900k</div>
+                        <div><img src="images/share.png" alt="">500k</div>
+
+
+                    </div>
+                    <div class="post-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="postcontainer">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                            <span>January 01 2001 , 12:00 PM</span>
+                        </div>
+                    </div>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+
+                <p class="post-text">Learn Most deamanding Skill <span>@WebDevelopement</span> From Our Websites<a
+                        href="#">#WebDevelopement</a><a href="#">#FullStackDeveloper</a> </p>
+                <img src="images/feed-image-5.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1M</div>
+                        <div><img src="images/comments.png" alt="">900k</div>
+                        <div><img src="images/share.png" alt="">500k</div>
+
+
+                    </div>
+                    <div class="post-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="postcontainer">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p style="margin-bottom: 3px;">Wali Shaikh</p>
+                            <span>January 01 2001 , 12:00 PM</span>
+                        </div>
+                    </div>
+                    <i class="fa fa-ellipsis-v"></i>
+
+                </div>
+
+                <p class="post-text">Learn Most deamanding Skill <span>@WebDevelopement</span> From Our Websites<a
+                        href="#">#WebDevelopement</a><a href="#">#FullStackDeveloper</a> </p>
+                <img src="images/feed-image-5.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1M</div>
+                        <div><img src="images/comments.png" alt="">900k</div>
+                        <div><img src="images/share.png" alt="">500k</div>
+
+
+                    </div>
+                    <div class="post-icon">
+                        <img src="images/profile-pic.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+            <button type="button" class="load-more-button">Load More</button>
+
+
+        </div>
+
+
+        <div class="rightbar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See all</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h4>18</h4>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h3>Social Media</h3>
+                    <p><i class="fa fa-map-marker"></i>Mark Zuckerberg</p>
+                    <a href="#">More info</a>
+
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h4>22</h4>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h3>Mobile Marketing</h3>
+                    <p><i class="fa fa-map-marker"></i>Wali Shaikh</p>
+                    <a href="#">More info</a>
+
+                </div>
+
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="">
+            <div class="sidebar-title">
+                <h4>conversation</h4>
+                <a href="#">Hide chats</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Mark Zuckerberg</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Wali Shaikh</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Elon Musk</p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Web Developement Tutorial</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
